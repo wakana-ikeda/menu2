@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menu">
         <activity
-            android:name=".cyuumonn"
+            android:name=".teisyoku"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quicktap.cyuumonn"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
